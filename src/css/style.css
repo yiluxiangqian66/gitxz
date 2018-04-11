@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrap,
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
