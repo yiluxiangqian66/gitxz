@@ -25,6 +25,7 @@ section {
     overflow-y: auto;
 }
 
+<<<<<<< HEAD
 .prouce {
     display: flex;
     flex-wrap: wrap;
@@ -110,3 +111,19 @@ footer span:nth-of-type(2) {
 }
 
 >>>>>>>100cb71171e9bea14908a6f010cc7ba9ca0fbf1f
+=======
+section .parent {
+    width: 100%;
+    height: 3.95rem;
+}
+
+section .parent ul {
+    width: 100%;
+    height: 100%;
+}
+
+section .parent img {
+    width: 100%;
+    height: 100%;
+}
+>>>>>>> 7e262b80ae7724e35dc7de69725d8f9e321427e8
