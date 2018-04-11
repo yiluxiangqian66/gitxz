@@ -23,3 +23,18 @@ section {
     flex: 1;
     overflow-y: auto;
 }
+
+section .parent {
+    width: 100%;
+    height: 3.95rem;
+}
+
+section .parent ul {
+    width: 100%;
+    height: 100%;
+}
+
+section .parent img {
+    width: 100%;
+    height: 100%;
+}
