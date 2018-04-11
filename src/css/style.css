@@ -16,11 +16,7 @@ body {
 .wrap {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     font-size: .32rem;
-=======
-    font-size:0.32rem;
->>>>>>> 568a9a27e28912d9898c3b53ce85f84122c13b30
 }
 
 section {
@@ -29,7 +25,6 @@ section {
     overflow-y: auto;
 }
 
-<<<<<<< HEAD
 .prouce {
     display: flex;
     flex-wrap: wrap;
@@ -127,77 +122,82 @@ section .parent ul {
 section .parent img {
     width: 100%;
     height: 100%;
-=======
-.list{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    font-size:0.28rem;
 }
 
-.list li{
-    width:95%;
-    line-height:50px;
-    border-bottom:solid 1px #ccc;
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.28rem;
+}
+
+.list li {
+    width: 95%;
+    line-height: 50px;
+    border-bottom: solid 1px #ccc;
     position: relative;
 }
 
-.list li b{
-    font-weight:normal;
+.list li b {
+    font-weight: normal;
 }
 
-.list li span{
-    color:#999;
-    padding-left:0.3rem;
-    font-size:0.27rem;
+.list li span {
+    color: #999;
+    padding-left: 0.3rem;
+    font-size: 0.27rem;
 }
 
 .list li i {
     position: absolute;
-    right:-.1rem;
-    color:#999;
+    right: -.1rem;
+    color: #999;
 }
 
-.list li.daquan{
+.list li.daquan {
     position: relative;
 }
 
-.list li.daquan input{
+.list li.daquan input {
     display: none;
 }
 
-.list li.daquan u{
-    padding-left:.32rem;
+.list li.daquan u {
+    padding-left: .32rem;
 }
 
-.list li i.quan{
-    display:inline-block;
+.list li i.quan {
+    display: inline-block;
     border-radius: 50%;
-    width:.28rem;
-    height:.28rem;
-    color:#fff;
+    width: .28rem;
+    height: .28rem;
+    color: #fff;
     background: skyblue;
-    text-align:center;
-    line-height:.28rem;
-    position: absolute; right:3.1rem; top:.35rem;
+    text-align: center;
+    line-height: .28rem;
+    position: absolute;
+    right: 3.1rem;
+    top: .35rem;
 }
 
-.list li i.quan2{
-    display:inline-block;
+.list li i.quan2 {
+    display: inline-block;
     border-radius: 50%;
-    width:.28rem;
-    height:.28rem;
-    color:#fff;
+    width: .28rem;
+    height: .28rem;
+    color: #fff;
     background: skyblue;
-    text-align:center;
-    line-height:.28rem;
-    position: absolute; right:2.4rem; top:.35rem;
+    text-align: center;
+    line-height: .28rem;
+    position: absolute;
+    right: 2.4rem;
+    top: .35rem;
 }
 
-.list h6{
-    font-weight:normal;
-    font-size:.23rem;
-    line-height:.5rem;
-    position: absolute; right:.1rem;
->>>>>>> 568a9a27e28912d9898c3b53ce85f84122c13b30
+.list h6 {
+    font-weight: normal;
+    font-size: .23rem;
+    line-height: .5rem;
+    position: absolute;
+    right: .1rem;
 }
